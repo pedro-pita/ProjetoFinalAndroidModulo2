@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/imageRow"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/imageView"
+                android:layout_width="270dp"
+                android:layout_height="270dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/textRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/descricao"
+                android:text="@string/descricao"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/titleDetails" />
+            <TextView
+                android:id="@+id/descricaoView"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textDetails" />
+
+            <TextView
+                android:id="@+id/localizacao"
+                android:text="@string/localizacao"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/titleDetails" />
+            <TextView
+                android:id="@+id/localizacaoView"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textDetails" />
+
+            <TextView
+                android:id="@+id/tipologia"
+                android:text="@string/tipologia"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/titleDetails" />
+            <TextView
+                android:id="@+id/tipologiaView"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textDetails" />
+
+            <TextView
+                android:id="@+id/id"
+                android:text="@string/id"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/titleDetails" />
+            <TextView
+                android:id="@+id/idView"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textDetails" />
+        </LinearLayout>
+
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Imoveis Colombo</string>
+    <string name="artistaDetails">Artista</string>
+    <string name="albumDetails">Nome do Album</string>
+    <string name="id">ID</string>
+    <string name="remover">Remover</string>
+    <string name="voltar">Voltar</string>
+    <string name="removeAll">Apagar tudo</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="editAdd">Insira o nome</string>
+    <string name="editDesc">Insira a descrição</string>
+    <string name="addBtn">Adicionar</string>
+    <string name="remove">Remover</string>
+    <string name="Edir">ID</string>
+    <string name="login">Login</string>
+    <string name="name">Nome</string>
+    <string name="password">Password</string>
+    <string name="checkLeg">Iniciar sessão automaticamente</string>
+    <string name="registar">Registar</string>
+    <string name="voltarToLogin">Voltar Para Login</string>
+    <string name="descricao">Descrição</string>
+    <string name="tipologia">Tipologia</string>
+    <string name="localizacao">Localização</string>
+    <string name="idade">Idade</string>
+</resources>
